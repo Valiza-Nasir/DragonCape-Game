@@ -1,0 +1,9 @@
+.main{
+  display: flex;
+  gap: 20px;
+}
+.first{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}

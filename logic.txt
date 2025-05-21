@@ -1,0 +1,26 @@
+1-Understanding
+
+
+First of all we need to understand its flow which is random emoji's generators and random flag generators.
+There are two players may be one is computer or otherone is a user or may be both players are users.
+There are four rows in each line and eight columns when each flag in one row or each emoji in each row match may be  its one player or 
+second player then game ends and player wins.We need to understand the logic of drag and drop how can we drag a div
+and drop into another div.
+
+
+2-Logic Start
+Step.1
+ I will generate random emojis using Math.random method
+ Step.2
+ I wiil generate random flags using Math.random method
+ Step.3
+ Use Mobx store to manage states of the users
+ Step.5
+ Make Arrows on the top of each row
+ Step.6
+ when we click on arrow the first row images shift their position and take the position of the next images
+ Step 7.
+ The last image take the position of the one image which is stored in states
+ Step 8.
+ Match the each row with their index to the second row with their index and with third row with their index and
+ with forth row with their index if all matches that player win we show a alert and game ended
